@@ -109,7 +109,7 @@ declare namespace API {
     method?: string;
     name?: string;
     reponseHeader?: string;
-    reqestHeader?: string;
+    requestHeader?: string;
     status?: number;
     updateTime?: string;
     url?: string;

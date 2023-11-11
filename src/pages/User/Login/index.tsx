@@ -76,7 +76,6 @@ const Login: React.FC = () => {
   const [userLoginState] = useState<API.LoginResult>({});
   const [type, setType] = useState<string>('account');
   const { setInitialState } = useModel('@@initialState');
-  const { location } = history;
   const containerClassName = useEmotionCss(() => {
     return {
       display: 'flex',
